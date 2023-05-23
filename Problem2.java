@@ -8,10 +8,11 @@ public class Problem2 {
         int a = input.nextInt();
         int b = input.nextInt();
         int c = input.nextInt();
+ 
+        Rational h = new Rational(-b, 2*a);
+        Rational k = new Rational((4*a*c - b*b), 4*a);
 
-        /*
-          Rational class를 참고하여 코드 작성
-        */
+        System.out.printf("h is %s and k is %s", h.toString(), k.toString());
       
     }
   
